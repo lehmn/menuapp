@@ -16,3 +16,16 @@
 .\39  { grid-area: \39 ; }
 .\31 0 { grid-area: \31 0; }
 .\31 1 { grid-area: \31 1; }
+
+body {
+  margin:0px;
+  width:600px;
+}
+
+div {
+text-align: -webkit-center;
+}
+
+img {
+width: 100%;
+}
