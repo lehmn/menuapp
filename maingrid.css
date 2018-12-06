@@ -2,20 +2,20 @@
   display: grid;
   grid-template-columns: 200px 200px 200px;
   grid-template-rows: 200px 200px 200px 200px 200px;
-  grid-template-areas: "\31  \31  \32 " "\33  \34  \35 " "\33  \36  \37 " "\38  \39  \39 " "\31 0 \31 0 \31 1";
+  grid-template-areas: "one one two" "three four five" "three six seven" "eight nine nine" "ten ten eleven";
 }
 
-.\31  { grid-area: \31 ; }
-.\32  { grid-area: \32 ; }
-.\33  { grid-area: \33 ; }
-.\34  { grid-area: \34 ; }
-.\35  { grid-area: \35 ; }
-.\36  { grid-area: \36 ; }
-.\37  { grid-area: \37 ; }
-.\38  { grid-area: \38 ; }
-.\39  { grid-area: \39 ; }
-.\31 0 { grid-area: \31 0; }
-.\31 1 { grid-area: \31 1; }
+.one { grid-area: one; }
+.two { grid-area: two; }
+.three { grid-area: three; }
+.four { grid-area: four; }
+.five { grid-area: five; }
+.six { grid-area: six; }
+.seven { grid-area: seven; }
+.eight { grid-area: eight; }
+.nine { grid-area: nine; }
+.ten { grid-area: ten; }
+.eleven { grid-area: eleven; }
 
 body {
   margin:0px;
